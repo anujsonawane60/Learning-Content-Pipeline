@@ -1,0 +1,117 @@
+This is the course description. Any text before the first "Module" heading is captured as the course-level description. Write a brief overview of what the course covers, its goals, and target audience.
+
+Module 1: Your First Module Title
+
+This paragraph (before the first Chapter heading) becomes the module-level description. Summarize what this module covers.
+
+Chapter 1: First Chapter Title
+
+### Overview
+Write the chapter overview here. This section provides context for what the learner will study in this chapter. You can write multiple paragraphs.
+
+A second paragraph of the overview section is also supported.
+
+### Instructions
+Step-by-step instructions or teaching content goes here. Explain the concepts, methods, or processes the learner needs to understand.
+
+Provide detailed explanations across multiple paragraphs as needed.
+
+### Sample Prompt
+If relevant, include a sample AI prompt, script, or example that demonstrates the concept being taught in this chapter.
+
+Example: "Explain the concept of [topic] in simple terms with 3 real-world examples."
+
+### Key Learnings
+- Learners should understand concept A
+- Learners should be able to apply technique B
+- Learners should recognize pattern C
+
+### Activity
+Describe a hands-on activity or exercise for the learner. This could be a prompt to try, a task to complete, or a question to answer.
+
+Activity: Try writing your own prompt that follows the techniques described above and compare the AI output.
+
+Chapter 2: Second Chapter Title
+
+### Overview
+Overview for the second chapter goes here.
+
+### Instructions
+Detailed teaching content for chapter 2.
+
+### Key Learnings
+- Key takeaway 1
+- Key takeaway 2
+
+### Activity
+Activity or exercise for chapter 2.
+
+Chapter 3: Third Chapter Title
+
+### Overview
+Overview for chapter 3.
+
+### Instructions
+Instructions for chapter 3.
+
+### Sample Prompt
+Another sample prompt or script example.
+
+### Key Learnings
+- Key takeaway for chapter 3
+
+### Activity
+Activity for chapter 3.
+
+Module 2: Your Second Module Title
+
+A brief description of what module 2 covers. This text appears before the first chapter heading of this module.
+
+Chapter 1: First Chapter of Module 2
+
+### Overview
+Overview text here.
+
+### Instructions
+Teaching content here.
+
+### Key Learnings
+- Key learning point
+
+### Activity
+Hands-on exercise here.
+
+Chapter 2: Second Chapter of Module 2
+
+### Overview
+Overview text here.
+
+### Instructions
+Teaching content here.
+
+### Sample Prompt
+Sample prompt here.
+
+### Key Learnings
+- Key learning point
+
+### Activity
+Activity here.
+
+Module 3: Your Third Module Title
+
+Module 3 description goes here.
+
+Chapter 1: Only Chapter in This Module
+
+### Overview
+You can have modules with just one chapter if needed.
+
+### Instructions
+Content for this chapter.
+
+### Key Learnings
+- Single module chapters work fine
+
+### Activity
+Activity for this chapter.
