@@ -2,6 +2,16 @@
   {
     "name": "GenAI Career Accelerator",
     "slug": "genai-career-accelerator",
-    "created_at": "2026-02-25T17:23:43"
+    "created_at": "2026-02-26T08:26:26"
+  },
+  {
+    "name": "2 Day Generative AI Workshop",
+    "slug": "2-day-generative-ai-workshop",
+    "created_at": "2026-02-26T09:09:21"
+  },
+  {
+    "name": "Deep Learning w/ Full Stack Deployment",
+    "slug": "deep-learning-full-stack-deployment",
+    "created_at": "2026-02-26T09:10:11"
   }
 ]

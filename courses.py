@@ -77,6 +77,17 @@ def remove_course(slug: str) -> dict:
         json_file.unlink()
         removed.append(str(json_file))
 
+    json_sub_dir = JSON_DIR / slug
+    if json_sub_dir.exists():
+        shutil.rmtree(json_sub_dir)
+        removed.append(str(json_sub_dir))
+
+    sql_dir = SQL_DIR / slug
+    if sql_dir.exists():
+        shutil.rmtree(sql_dir)
+        removed.append(str(sql_dir))
+
+    # Legacy: single .sql file from older runs
     sql_file = SQL_DIR / f"{slug}.sql"
     if sql_file.exists():
         sql_file.unlink()

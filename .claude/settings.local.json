@@ -2,7 +2,8 @@
   "permissions": {
     "allow": [
       "Bash(cd:*)",
-      "Bash(cd G:\\\\Learning-Content-Pipeline:*)"
+      "Bash(cd G:\\\\Learning-Content-Pipeline:*)",
+      "Bash(ls:*)"
     ]
   }
 }

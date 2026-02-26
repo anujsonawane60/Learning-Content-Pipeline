@@ -270,8 +270,27 @@ def convert_to_json(course_slug: str, use_ai: bool = False) -> None:
         encoding="utf-8",
     )
 
+    # Per-module JSON files
+    per_mod_dir = JSON_DIR / course_slug
+    per_mod_dir.mkdir(parents=True, exist_ok=True)
+    for mod in modules:
+        mod_order = mod.get("order_index", 1)
+        mod_slug = mod["slug"]
+        per_mod_data = {
+            "course_title": result["course_title"],
+            "course_slug": course_slug,
+            "module": mod,
+        }
+        mod_filename = f"module_{mod_order:02d}_{mod_slug}.json"
+        mod_path = per_mod_dir / mod_filename
+        mod_path.write_text(
+            json.dumps(per_mod_data, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+
     total_chapters = sum(len(m["chapters"]) for m in modules)
     click.echo(
         f"\nStage 2 complete - {len(modules)} module(s), "
         f"{total_chapters} chapter(s) -> {out_path}"
     )
+    click.echo(f"  Per-module JSONs -> {per_mod_dir}/")
